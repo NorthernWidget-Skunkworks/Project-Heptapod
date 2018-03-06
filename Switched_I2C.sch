@@ -3390,6 +3390,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <sheets>
 <sheet>
 <plain>
+<text x="5.08" y="83.82" size="1.778" layer="91">Vin = 2.5~5v</text>
 </plain>
 <instances>
 <instance part="U$1" gate="G$1" x="10.16" y="71.12"/>

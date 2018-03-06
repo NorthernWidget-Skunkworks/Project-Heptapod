@@ -186,7 +186,8 @@
 <text x="19.05" y="7.112" size="0.8128" layer="51" font="vector" ratio="15" distance="40" rot="SR0" align="center">VCC</text>
 <hole x="32.512" y="14.859" drill="3.45"/>
 <hole x="2.667" y="14.859" drill="3.45"/>
-<text x="30.48" y="6.604" size="0.8128" layer="52" font="vector" ratio="15" distance="40" rot="MR0" align="center-left">Project Heptapod
+<text x="30.48" y="7.112" size="0.8128" layer="52" font="vector" ratio="15" distance="40" rot="MR0" align="center-left">Project Heptapod
+Switch
 -----------
 Designed by 
 Northern Widget and
@@ -290,47 +291,37 @@ http://www.maxim-ic.com .. MAX3223-MAX3243.pdf</description>
 </library>
 <library name="awickert">
 <packages>
-<package name="NWLOGO_MED">
-<wire x1="-1.16203125" y1="-2.940684375" x2="-3.5298625" y2="1.794290625" width="0.2" layer="21"/>
-<wire x1="-3.5298625" y1="1.794290625" x2="-2.937903125" y2="2.09025625" width="0.2" layer="21"/>
-<wire x1="-2.937903125" y1="2.09025625" x2="-1.16203125" y2="-1.46148125" width="0.2" layer="21"/>
-<polygon width="0" layer="21">
-<vertex x="3.585440625" y="1.992978125"/>
-<vertex x="3.584059375" y="0.692359375"/>
-<vertex x="2.457796875" y="1.34475"/>
+<package name="NWLOGO_SMALL">
+<wire x1="-0.46698125" y1="-0.86048125" x2="-0.016040625" y2="0.0389" width="0.127" layer="51"/>
+<wire x1="-0.016040625" y1="0.0389" x2="0.449840625" y2="-0.86795" width="0.127" layer="51"/>
+<wire x1="0.449840625" y1="-0.86795" x2="1.252059375" y2="0.59696875" width="0.127" layer="51"/>
+<wire x1="1.252059375" y1="0.59696875" x2="1.381609375" y2="0.51475" width="0.127" layer="51"/>
+<wire x1="1.381609375" y1="0.51475" x2="1.371640625" y2="1.08776875" width="0.127" layer="51"/>
+<wire x1="1.371640625" y1="1.08776875" x2="0.8958" y2="0.816209375" width="0.127" layer="51"/>
+<wire x1="0.8958" y1="0.816209375" x2="1.02535" y2="0.7315" width="0.127" layer="51"/>
+<wire x1="1.02535" y1="0.7315" x2="0.45233125" y2="-0.2476" width="0.127" layer="51"/>
+<wire x1="0.45233125" y1="-0.2476" x2="-0.011059375" y2="0.661740625" width="0.127" layer="51"/>
+<wire x1="-0.011059375" y1="0.661740625" x2="-0.47445" y2="-0.25508125" width="0.127" layer="51"/>
+<wire x1="-0.47445" y1="-0.25508125" x2="-1.1521" y2="1.09773125" width="0.127" layer="51"/>
+<wire x1="-1.1521" y1="1.09773125" x2="-1.3838" y2="0.980640625" width="0.127" layer="51"/>
+<wire x1="-1.3838" y1="0.980640625" x2="-0.46698125" y2="-0.86048125" width="0.127" layer="51"/>
+<wire x1="-0.015253125" y1="0.659121875" x2="-0.620703125" y2="-0.547346875" width="0.127" layer="51"/>
+<polygon width="0.025" layer="51">
+<vertex x="-0.010721875" y="0.640271875"/>
+<vertex x="-0.63203125" y="-0.543678125"/>
+<vertex x="-0.4807" y="-0.793234375"/>
+<vertex x="-0.03560625" y="-0.0445625"/>
+<vertex x="0.0623125" y="-0.124778125"/>
+<vertex x="0.4718" y="-0.855625"/>
+<vertex x="1.272965625" y="0.588240625"/>
+<vertex x="1.388690625" y="0.534765625"/>
+<vertex x="1.388690625" y="1.06061875"/>
+<vertex x="0.970303125" y="0.87345"/>
+<vertex x="0.97920625" y="0.721934375"/>
+<vertex x="0.44509375" y="-0.23173125"/>
+<vertex x="0.017803125" y="0.61498125"/>
+<vertex x="0" y="0"/>
 </polygon>
-<polygon width="0" layer="21">
-<vertex x="3.585428125" y="1.992978125"/>
-<vertex x="3.584034375" y="0.692359375"/>
-<vertex x="2.457796875" y="1.34475"/>
-</polygon>
-<polygon width="0" layer="21">
-<vertex x="1.575415625" y="-2.201440625"/>
-<vertex x="1.205109375" y="-2.940684375"/>
-<vertex x="0.021871875" y="-0.57354375"/>
-<vertex x="-1.16203125" y="-2.940684375"/>
-<vertex x="-1.16203125" y="-1.46148125"/>
-<vertex x="0.021871875" y="0.906353125"/>
-</polygon>
-<polygon width="0" layer="21">
-<vertex x="-1.5323625" y="-2.201440625"/>
-<vertex x="-1.16203125" y="-2.940684375"/>
-<vertex x="0.021871875" y="-0.57354375"/>
-<vertex x="1.205109375" y="-2.940684375"/>
-<vertex x="3.424940625" y="1.054328125"/>
-<vertex x="2.83298125" y="1.350321875"/>
-<vertex x="1.205109375" y="-1.46148125"/>
-<vertex x="0.021871875" y="0.906353125"/>
-</polygon>
-<wire x1="-1.16203125" y1="-2.940684375" x2="0.021871875" y2="-0.57354375" width="0.2" layer="21"/>
-<wire x1="0.021871875" y1="-0.57354375" x2="1.205109375" y2="-2.940684375" width="0.2" layer="21"/>
-<wire x1="1.205109375" y1="-2.940684375" x2="3.424940625" y2="1.054328125" width="0.2" layer="21"/>
-<wire x1="2.83298125" y1="1.350321875" x2="1.205109375" y2="-1.46148125" width="0.2" layer="21"/>
-<wire x1="2.457796875" y1="1.34475" x2="3.585428125" y2="1.992978125" width="0.2" layer="21"/>
-<wire x1="3.585428125" y1="1.992978125" x2="3.584034375" y2="0.692359375" width="0.2" layer="21"/>
-<wire x1="3.584034375" y1="0.692359375" x2="2.457796875" y2="1.34475" width="0.2" layer="21"/>
-<wire x1="1.205109375" y1="-1.46148125" x2="0.021871875" y2="0.906353125" width="0.2" layer="21"/>
-<wire x1="0.021871875" y1="0.906353125" x2="-1.5323625" y2="-2.201440625" width="0.2" layer="21"/>
 </package>
 </packages>
 </library>
@@ -578,7 +569,6 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <element name="U$3" library="bschulz" package="1X04" value="CONN_4SCREW_2.54" x="12.065" y="14.097"/>
 <element name="U$6" library="bschulz" package="1X04" value="CONN_4SCREW_2.54" x="23.114" y="14.097"/>
 <element name="U$7" library="bschulz" package="1X04" value="CONN_4SCREW_2.54" x="31.877" y="5.334" rot="R270"/>
-<element name="U$4" library="awickert" package="NWLOGO_MED" value="" x="27.94" y="-3.81" rot="MR0"/>
 <element name="U$5" library="bschulz" package="TSSOP16" value="SN74LV4051ATSSOP" x="8.89" y="9.398" rot="MR90">
 <attribute name="DIGIKEY" value="296-41644-1-ND" x="8.89" y="9.398" size="0.8128" layer="28" font="vector" ratio="15" rot="MR90" display="off"/>
 <attribute name="MF" value="TI" x="8.89" y="9.398" size="0.8128" layer="28" font="vector" ratio="15" rot="MR90" display="off"/>
@@ -607,6 +597,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="VALUE_PART" value="" x="7.239" y="-4.699" size="0.8128" layer="28" font="vector" ratio="15" rot="MR90" display="off"/>
 </element>
 <element name="Q1" library="bschulz" package="SOT23-3" value="MOSFET-NCH-DMG3404L" x="25.019" y="2.159" rot="MR0"/>
+<element name="U$9" library="awickert" package="NWLOGO_SMALL" value="" x="29.21" y="2.54" rot="MR0"/>
 </elements>
 <signals>
 <signal name="SCL">
@@ -696,7 +687,10 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <wire x1="9.4996" y1="1.3716" x2="9.398" y2="1.27" width="0.254" layer="1"/>
 <wire x1="8.255" y1="1.3716" x2="9.2964" y2="1.3716" width="0.254" layer="1"/>
 <wire x1="9.2964" y1="1.3716" x2="9.398" y2="1.27" width="0.254" layer="1"/>
-<wire x1="9.398" y1="3.7846" x2="11.8078" y2="7.123" width="0" layer="19" extent="1-16"/>
+<wire x1="6.58323125" y1="6.6912" x2="5.9292" y2="6.6912" width="0.254" layer="16"/>
+<wire x1="5.9292" y1="6.6912" x2="3.302" y2="4.064" width="0.254" layer="16"/>
+<wire x1="11.8078" y1="7.123" x2="7.01503125" y2="7.123" width="0.254" layer="16"/>
+<wire x1="7.01503125" y1="7.123" x2="6.58323125" y2="6.6912" width="0.254" layer="16"/>
 </signal>
 <signal name="GND">
 <contactref element="U$2" pad="1"/>
