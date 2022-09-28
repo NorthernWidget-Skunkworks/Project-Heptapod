@@ -1,3 +1,5 @@
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.7118008.svg)](https://doi.org/10.5281/zenodo.7118008)
+
 # Project-Heptapod
 Eagle designs for bus breakout boards, designed to distribute I2C connections
 
