@@ -46,3 +46,6 @@ eagle.epf
 .DS_Store
 Thumbs.db
 
+# Never ignore files in dedicated Gerbers folders
+!*_Gerbers/**
+
