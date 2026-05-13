@@ -12,19 +12,19 @@ Project Heptapod is a family of compact breakout boards for distributing bus con
 
 Because the board is simply a passive connection hub, it can also serve as a general-purpose wire distribution point for any four-wire signal.
 
-## BusBreakout\_I2C
+## [BusBreakout\_I2C](BusBreakout_I2C/)
 
 One upstream I2C connection (typically a 4-pin header from a data logger such as the [Northern Widget Margay](https://github.com/NorthernWidget/Project-Margay)) fans out to four downstream screw-terminal ports. Each port carries SCL, SDA, VCC, and GND. No active components — plug in, tighten screws, done.
 
 ![Heptapod wired with sensors in lab](Documentation/images/HeptapodInLab_wired_closeup_2019-11-26_17.41.30.jpg)
 
-A **Mini** variant (`BusBreakout_I2C_Mini`) is also available with a smaller footprint for space-constrained installations.
+A **Mini** variant ([BusBreakout\_I2C\_Mini](BusBreakout_I2C_Mini/)) is also available with a smaller footprint for space-constrained installations.
 
 ## Other Boards
 
-**Switched\_I2C** — I2C breakout with software-switchable power per port, allowing the host to selectively energize sensors and minimize quiescent current in low-power deployments.
+[**Switched\_I2C**](Switched_I2C/) — I2C breakout with software-switchable power per port, allowing the host to selectively energize sensors and minimize quiescent current in low-power deployments.
 
-**RS485\_Breakout** — RS-485 bus breakout for multi-drop sensor networks over long cable runs.
+[**RS485\_Breakout**](RS485_Breakout/) — RS-485 bus breakout for multi-drop sensor networks over long cable runs.
 
 ## License
 
