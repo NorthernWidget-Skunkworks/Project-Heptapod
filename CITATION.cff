@@ -4,8 +4,11 @@ authors:
 - family-names: "Schulz"
   given-names: "Bobby"
   orcid: "https://orcid.org/0000-0002-9272-4756"
-title: "Project-Tally"
+- family-names: "Wickert"
+  given-names: "Andrew"
+  orcid: "https://orcid.org/0000-0002-9545-3365"
+title: "Project-Heptapod"
 version: 1.0.0
 doi: 10.5281/zenodo.7118008
 date-released: 2020-08-11
-url: "https://github.com/NorthernWidget-Skunkworks/Project-Tally"
+url: "https://github.com/NorthernWidget-Skunkworks/Project-Heptapod"
