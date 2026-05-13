@@ -1,5 +1,5 @@
 {
-  "title": "Project-Heptapod",
+  "title": "Project-Ophiura",
   "description": "Compact I2C and RS-485 bus breakout boards. The primary board (BusBreakout_I2C) splits a single I2C connection (SCL, SDA, VCC, GND) into four downstream screw-terminal ports, enabling multiple sensors to share one data logger or microcontroller bus without soldering.",
   "upload_type": "other",
   "license": "CC-BY-SA-4.0",
