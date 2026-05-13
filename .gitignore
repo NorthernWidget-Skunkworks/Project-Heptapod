@@ -1,9 +1,9 @@
 # Ignore list for Eagle, a PCB layout tool
 
 # Backup files
-*.s#?
-*.b#?
-*.l#?
+*.s#*
+*.b#*
+*.l#*
 
 # Eagle project file
 # It contains a serial number and references to the file structure
@@ -41,4 +41,8 @@ eagle.epf
 
 # file locks introduced since 7.x
 *.lck
+
+# OS files
+.DS_Store
+Thumbs.db
 
