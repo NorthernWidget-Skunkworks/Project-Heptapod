@@ -6,25 +6,25 @@
 
 ![Heptapod I2C Bus Breakout](Documentation/images/Heptapod_BusBreakout_I2C_2025.jpg)
 
-![Heptapod wired in lab](Documentation/images/HeptapodInLab_wired_closeup_2019-11-26_17.41.30.jpg)
-
 ## Overview
 
-Project Heptapod is a family of small breakout boards designed to connect multiple sensors to a data logger or microcontroller. The name comes from *hepta* (Greek: seven), reflecting the board's ability to fan out a single bus connection to seven sensor ports.
+Project Heptapod is a family of compact breakout boards for distributing bus connections. The most widely used board is the **BusBreakout\_I2C**, which splits a single I2C connection (SCL, SDA, VCC, GND) into four independent downstream ports via screw terminals — making it easy to wire multiple sensors to one data logger or microcontroller without soldering.
 
-## Boards
+Because the board is simply a passive connection hub, it can also serve as a general-purpose wire distribution point for any four-wire signal.
 
-### BusBreakout\_I2C
+## BusBreakout\_I2C
 
-A passive I2C bus breakout that splits one upstream I2C connection (SCL, SDA, VCC, GND) into seven downstream screw-terminal ports. Designed for use with the [Northern Widget Margay](https://github.com/NorthernWidget/Project-Margay) or any I2C-capable data logger.
+One upstream I2C connection (typically a 4-pin header from a data logger such as the [Northern Widget Margay](https://github.com/NorthernWidget/Project-Margay)) fans out to four downstream screw-terminal ports. Each port carries SCL, SDA, VCC, and GND. No active components — plug in, tighten screws, done.
 
-### Switched\_I2C
+![Heptapod wired with sensors in lab](Documentation/images/HeptapodInLab_wired_closeup_2019-11-26_17.41.30.jpg)
 
-An I2C breakout with software-switchable power to each port, allowing the host controller to selectively power sensors and reduce quiescent current in low-power deployments.
+A **Mini** variant (`BusBreakout_I2C_Mini`) is also available with a smaller footprint for space-constrained installations.
 
-### RS485\_Breakout
+## Other Boards
 
-An RS-485 bus breakout for multi-drop sensor networks over long cable runs.
+**Switched\_I2C** — I2C breakout with software-switchable power per port, allowing the host to selectively energize sensors and minimize quiescent current in low-power deployments.
+
+**RS485\_Breakout** — RS-485 bus breakout for multi-drop sensor networks over long cable runs.
 
 ## License
 
