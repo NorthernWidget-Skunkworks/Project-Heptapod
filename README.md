@@ -4,7 +4,7 @@
 
 *I2C and RS-485 bus breakout boards by [Northern Widget LLC](https://www.northernwidget.com)*
 
-![Ophiura I2C Bus Breakout](Documentation/images/Heptapod_BusBreakout_I2C_2025.jpg)
+![Ophiura I2C Bus Breakout](Documentation/images/Ophiura_BusBreakout_I2C_2025.jpg)
 
 ## Namesake
 
@@ -26,7 +26,7 @@ Because the board is simply a passive connection hub, it can also serve as a gen
 
 One upstream I2C connection (typically a 4-pin header from a data logger such as the [Northern Widget Margay](https://github.com/NorthernWidget/Project-Margay)) fans out to four downstream screw-terminal ports. Each port carries SCL, SDA, VCC, and GND. No active components — plug in, tighten screws, done.
 
-![Ophiura wired with sensors in lab](Documentation/images/HeptapodInLab_wired_closeup_2019-11-26_17.41.30.jpg)
+![Ophiura wired with sensors in lab](Documentation/images/OphiuraInLab_wired_closeup_2019-11-26_17.41.30.jpg)
 
 ### Pinout
 
