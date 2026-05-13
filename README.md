@@ -6,6 +6,8 @@
 
 ![Heptapod I2C Bus Breakout](Documentation/images/Heptapod_BusBreakout_I2C_2025.jpg)
 
+![Heptapod wired in lab](Documentation/images/HeptapodInLab_wired_closeup_2019-11-26_17.41.30.jpg)
+
 ## Overview
 
 Project Heptapod is a family of small breakout boards designed to connect multiple sensors to a data logger or microcontroller. The name comes from *hepta* (Greek: seven), reflecting the board's ability to fan out a single bus connection to seven sensor ports.
