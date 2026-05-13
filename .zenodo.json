@@ -1,0 +1,28 @@
+{
+  "title": "Project-Heptapod",
+  "description": "Compact I2C and RS-485 bus breakout boards. The primary board (BusBreakout_I2C) splits a single I2C connection (SCL, SDA, VCC, GND) into four downstream screw-terminal ports, enabling multiple sensors to share one data logger or microcontroller bus without soldering.",
+  "upload_type": "other",
+  "license": "CC-BY-SA-4.0",
+  "creators": [
+    {
+      "name": "Schulz, Bobby",
+      "affiliation": "University of Minnesota",
+      "orcid": "0000-0002-9272-4756"
+    },
+    {
+      "name": "Wickert, Andy",
+      "affiliation": "Northern Widget LLC",
+      "orcid": "0000-0002-9545-3365"
+    }
+  ],
+  "keywords": [
+    "I2C",
+    "RS-485",
+    "bus breakout",
+    "open hardware",
+    "sensor interface",
+    "data logger",
+    "environmental sensing"
+  ],
+  "access_right": "open"
+}
