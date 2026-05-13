@@ -1,4 +1,4 @@
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.7118008.svg)](https://doi.org/10.5281/zenodo.7118008)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.7118007.svg)](https://doi.org/10.5281/zenodo.7118007)
 
 # Project Heptapod
 
