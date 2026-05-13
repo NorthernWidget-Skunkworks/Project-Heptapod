@@ -1,14 +1,24 @@
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.7118007.svg)](https://doi.org/10.5281/zenodo.7118007)
 
-# Project Heptapod
+# Project Ophiura
 
 *I2C and RS-485 bus breakout boards by [Northern Widget LLC](https://www.northernwidget.com)*
 
-![Heptapod I2C Bus Breakout](Documentation/images/Heptapod_BusBreakout_I2C_2025.jpg)
+![Ophiura I2C Bus Breakout](Documentation/images/Heptapod_BusBreakout_I2C_2025.jpg)
+
+## Namesake
+
+![Ophiura albida brittle star](Documentation/images/Ophiura_albida_aboral.jpg)
+
+***Ophiura albida*, a brittle star.** *Photo by Andrea Bonifazi, [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/).*
+
+*Ophiura* (pronounced "oh-FYOO-rah"; from Greek *ophioura*, "snake-tailed") is a genus of brittle stars — marine invertebrates related to sea stars but built for sensing and coordinated movement. When a brittle star locomotes, one arm leads as a sensory probe while the other four row in coordinated response. Crucially, all four trailing arms continuously send proprioceptive feedback back to the central disc, which integrates and adjusts. The result is a true bidirectional hub: signals flow outward from one to four, and inward from four back to one.
+
+This maps directly onto I2C: one upstream connection carries clock and commands outward to sensors, while sensors pull the data line back to return their readings. Project Ophiura is not a splitter — it is a hub.
 
 ## Overview
 
-Project Heptapod is a family of compact breakout boards for distributing bus connections. The most widely used board is the **BusBreakout\_I2C**, which splits a single I2C connection (SCL, SDA, VCC, GND) into four independent downstream ports via screw terminals — making it easy to wire multiple sensors to one data logger or microcontroller without soldering.
+Project Ophiura is a family of compact breakout boards for distributing bus connections. The most widely used board is the **BusBreakout\_I2C**, which connects a single upstream I2C connection (SCL, SDA, VCC, GND) to four independent downstream screw-terminal ports — making it easy to wire multiple sensors to one data logger or microcontroller without soldering.
 
 Because the board is simply a passive connection hub, it can also serve as a general-purpose wire distribution point for any four-wire signal.
 
@@ -16,7 +26,7 @@ Because the board is simply a passive connection hub, it can also serve as a gen
 
 One upstream I2C connection (typically a 4-pin header from a data logger such as the [Northern Widget Margay](https://github.com/NorthernWidget/Project-Margay)) fans out to four downstream screw-terminal ports. Each port carries SCL, SDA, VCC, and GND. No active components — plug in, tighten screws, done.
 
-![Heptapod wired with sensors in lab](Documentation/images/HeptapodInLab_wired_closeup_2019-11-26_17.41.30.jpg)
+![Ophiura wired with sensors in lab](Documentation/images/HeptapodInLab_wired_closeup_2019-11-26_17.41.30.jpg)
 
 A **Mini** variant ([BusBreakout\_I2C\_Mini](BusBreakout_I2C_Mini/)) is also available with a smaller footprint for space-constrained installations.
 
